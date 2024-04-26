@@ -15,7 +15,7 @@ def press_btn(event):
         expression = ""
         display_var.set("")
     elif text == "Limpar":
-        expression = expression[:-1]  # Remove o último caractere da expressão
+        expression = expression[:-1]  
         display_var.set(expression)
     else :
         expression += text
